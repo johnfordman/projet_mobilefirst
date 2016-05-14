@@ -1,0 +1,182 @@
+p {
+  margin: 0; }
+
+html, body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #05050d;
+  font-size: 13px;
+  font-family: "Avenir Next"; }
+
+@media (min-width: 1024px) and (max-width: 1349px) {
+  .wrap-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100vh; } }
+
+@media (min-width: 1024px) and (max-width: 1349px) {
+  .header-player {
+    width: 50%;
+    height: 100%; } }
+
+.section-player {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media (min-width: 1024px) and (max-width: 1349px) {
+    .section-player {
+      height: calc(100% - 150px); } }
+  .section-player .section-player-bg {
+    position: relative;
+    height: 150px;
+    width: 100%;
+    background: url("/projet_mobilefirst/assets/images/background-img.jpg") no-repeat;
+    background-size: cover;
+    z-index: 1; }
+    @media (min-width: 1024px) and (max-width: 1349px) {
+      .section-player .section-player-bg {
+        height: 100%; } }
+  .section-player .section-player-info {
+    margin-top: -55px;
+    position: relative;
+    z-index: 1; }
+    @media (min-width: 1024px) and (max-width: 1349px) {
+      .section-player .section-player-info {
+        color: #fff; } }
+    .section-player .section-player-info .player-picture {
+      margin-bottom: 15px;
+      text-align: center; }
+      @media (min-width: 1024px) and (max-width: 1349px) {
+        .section-player .section-player-info .player-picture {
+          display: none; } }
+      .section-player .section-player-info .player-picture img {
+        display: inline-block;
+        width: 110px;
+        height: 110px;
+        border-radius: 50%; }
+    .section-player .section-player-info .player-name {
+      font-weight: 700;
+      font-size: 18px; }
+    .section-player .section-player-info .container-team {
+      text-align: center; }
+      .section-player .section-player-info .container-team .player-team {
+        font-size: 9px; }
+
+.section-palmares {
+  height: 30px;
+  position: relative;
+  margin-top: 17px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: rgba(216, 216, 216, 0.23);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: black;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.23);
+  border-top: 1px solid rgba(151, 151, 151, 0.23); }
+  @media (min-width: 1024px) and (max-width: 1349px) {
+    .section-palmares {
+      margin-top: 0;
+      height: 150px;
+      padding-top: 0;
+      padding-bottom: 0; } }
+  .section-palmares .selection-item {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .section-palmares .selection-item .icon {
+      margin-right: 10px; }
+    .section-palmares .selection-item .chiffre {
+      font-size: 24px;
+      line-height: 24px;
+      font-weight: 700;
+      color: #05050d; }
+    .section-palmares .selection-item .chiffre-title {
+      color: #05050d;
+      letter-spacing: .4px;
+      font-size: 9px;
+      text-transform: uppercase;
+      font-family: Montserrat;
+      font-weight: 500; }
+
+.section-news {
+  position: relative;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px; }
+  @media (min-width: 1024px) and (max-width: 1349px) {
+    .section-news {
+      padding-left: 0; } }
+  .section-news:after {
+    position: absolute;
+    content: '';
+    left: 30px;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background: rgba(151, 151, 151, 0.23); }
+    @media (min-width: 1024px) and (max-width: 1349px) {
+      .section-news:after {
+        left: 0; } }
+  @media (min-width: 1024px) and (max-width: 1349px) {
+    .section-news {
+      width: 50%; } }
+  .section-news .single-news {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    margin-left: -5px;
+    margin-bottom: 25px; }
+    .section-news .single-news .news-circle {
+      display: inline-block;
+      width: 11.5px;
+      height: 11.5px;
+      background: red;
+      border-radius: 50%; }
+    .section-news .single-news .news-date {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .section-news .single-news .news-date .news-date-day {
+        margin-bottom: 5px;
+        font-size: 18px;
+        line-height: 15px;
+        font-weight: 700; }
+      .section-news .single-news .news-date .news-date-hours {
+        font-size: 10px; }
+    .section-news .single-news .news-text {
+      margin-top: -5px;
+      width: 150px; }
+
+

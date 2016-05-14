@@ -1,0 +1,60 @@
+.section-player{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media #{$md}{
+    height: calc(100% - 150px);
+  }
+
+  .section-player-bg{
+    position: relative;
+    height: 150px;
+    width: 100%;
+    background:url('/projet_mobilefirst/assets/images/background-img.jpg')no-repeat;
+    background-size: cover;
+    z-index: 1;
+
+    @media #{$md}{
+      height: 100%;
+    }
+  }
+  .section-player-info{
+    margin-top: -55px;
+    position: relative;
+    z-index: 1;
+
+    @media #{$md}{
+      color: #fff;
+    }
+
+    .player-picture {
+      margin-bottom: 15px;
+      text-align: center;
+      @media #{$md}{
+        display: none;
+      }
+
+      img {
+        display: inline-block;
+        width: 110px;
+        height: 110px;
+        border-radius:50%;
+      }
+    }
+    .player-name{
+      font-weight: 700;
+      font-size: 18px;
+    }
+    .container-team{
+      text-align: center;
+      .player-team{
+       font-size: 9px;
+      }
+
+    }
+  }
+
+}
+

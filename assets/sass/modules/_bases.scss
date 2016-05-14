@@ -1,0 +1,15 @@
+html,body{
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $black;
+  font-size: 13px;
+  font-family:"Avenir Next";
+}
+.wrap-container{
+  @media #{$md} {
+    display: flex;
+    height: 100vh;
+  }
+}
+
