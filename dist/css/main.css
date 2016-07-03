@@ -1,5 +1,89 @@
-p {
+html {
+  height: 100%; }
+
+body {
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+  a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    outline: none; }
+
+p,
+ol,
+ul,
+li,
+dl {
+  padding: 0;
   margin: 0; }
+
+dd {
+  margin-left: 0; }
+
+img,
+video {
+  max-width: 100%;
+  height: auto; }
+
+.map img {
+  max-width: none; }
+
+button {
+  text-transform: inherit; }
+
+blockquote footer,
+blockquote small,
+blockquote .small {
+  color: inherit; }
+
+ul,
+ol,
+.list {
+  padding-left: 0;
+  list-style: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: 1; }
+
+label {
+  margin: 0;
+  cursor: pointer;
+  font-weight: normal; }
+
+svg {
+  max-width: 100%;
+  max-height: 100%; }
+
+svg {
+  fill: inherit; }
+
+a:focus,
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none; }
+
+blockquote {
+  padding: 0;
+  border: none;
+  margin: 0; }
+
+.dz-preview {
+  display: none; }
 
 html, body {
   height: 100%;
@@ -47,6 +131,9 @@ html, body {
     @media (min-width: 1024px) and (max-width: 1349px) {
       .section-player .section-player-bg {
         height: 100%; } }
+    @media (max-width: 1023px) {
+      .section-player .section-player-bg {
+        height: 250px; } }
   .section-player .section-player-info {
     margin-top: -55px;
     position: relative;
@@ -54,6 +141,9 @@ html, body {
     @media (min-width: 1024px) and (max-width: 1349px) {
       .section-player .section-player-info {
         color: #fff; } }
+    @media (max-width: 1023px) {
+      .section-player .section-player-info {
+        margin-top: -90px; } }
     .section-player .section-player-info .player-picture {
       margin-bottom: 15px;
       text-align: center; }
@@ -65,38 +155,51 @@ html, body {
         width: 110px;
         height: 110px;
         border-radius: 50%; }
+        @media (max-width: 1023px) {
+          .section-player .section-player-info .player-picture img {
+            width: 165px;
+            height: 165px; } }
     .section-player .section-player-info .player-name {
       font-weight: 700;
       font-size: 18px; }
+      @media (max-width: 1023px) {
+        .section-player .section-player-info .player-name {
+          text-align: center; } }
     .section-player .section-player-info .container-team {
       text-align: center; }
       .section-player .section-player-info .container-team .player-team {
         font-size: 9px; }
 
 .section-palmares {
-  height: 30px;
-  position: relative;
-  margin-top: 17px;
-  padding-left: 30px;
-  padding-right: 30px;
   background: rgba(216, 216, 216, 0.23);
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  color: black;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   border-bottom: 1px solid rgba(151, 151, 151, 0.23);
-  border-top: 1px solid rgba(151, 151, 151, 0.23); }
-  @media (min-width: 1024px) and (max-width: 1349px) {
-    .section-palmares {
-      margin-top: 0;
-      height: 150px;
-      padding-top: 0;
-      padding-bottom: 0; } }
+  border-top: 1px solid rgba(151, 151, 151, 0.23);
+  margin-top: 17px; }
+  .section-palmares .container-palmares {
+    height: 30px;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    @media (min-width: 1024px) and (max-width: 1349px) {
+      .section-palmares .container-palmares {
+        margin-top: 0;
+        height: 150px;
+        padding-top: 0;
+        padding-bottom: 0; } }
+    @media (max-width: 1023px) {
+      .section-palmares .container-palmares {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto; } }
   .section-palmares .selection-item {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -127,6 +230,11 @@ html, body {
   @media (min-width: 1024px) and (max-width: 1349px) {
     .section-news {
       padding-left: 0; } }
+  @media (max-width: 1023px) {
+    .section-news {
+      width: 500px;
+      margin: 0 auto;
+      padding-top: 30px; } }
   .section-news:after {
     position: absolute;
     content: '';
@@ -176,7 +284,11 @@ html, body {
       .section-news .single-news .news-date .news-date-hours {
         font-size: 10px; }
     .section-news .single-news .news-text {
-      margin-top: -5px;
+      margin-top: -2px;
       width: 150px; }
+      @media (max-width: 1023px) {
+        .section-news .single-news .news-text {
+          width: 240px;
+          margin-top: 0; } }
 
 

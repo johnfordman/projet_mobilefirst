@@ -19,6 +19,9 @@
     @media #{$md}{
       height: 100%;
     }
+    @media #{$sm-xs}{
+      height: 250px;
+    }
   }
   .section-player-info{
     margin-top: -55px;
@@ -28,7 +31,9 @@
     @media #{$md}{
       color: #fff;
     }
-
+    @media #{$sm-xs} {
+      margin-top: -90px;
+    }
     .player-picture {
       margin-bottom: 15px;
       text-align: center;
@@ -41,11 +46,20 @@
         width: 110px;
         height: 110px;
         border-radius:50%;
+
+        @media #{$sm-xs}{
+          width: 165px;
+          height: 165px;
+        }
       }
     }
     .player-name{
       font-weight: 700;
       font-size: 18px;
+
+      @media #{$sm-xs} {
+        text-align: center;
+      }
     }
     .container-team{
       text-align: center;

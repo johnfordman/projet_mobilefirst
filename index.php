@@ -27,19 +27,21 @@
         	</div>
 
         	<section class="section-palmares">
-        		<div class="selection-item">
-        			<span class="icon"><?php echo file_get_contents("assets/images/icons/icn-cupworld.svg"); ?></span>
-        			<span class="chiffre">9</span>
-        		</div>
-        		<div class="selection-item">
-        			<span class="icon"><?php echo file_get_contents("assets/images/icons/icn-cupworld.svg"); ?></span>
+				<div class="container-palmares">
+					<div class="selection-item">
+						<span class="icon"><?php echo file_get_contents("assets/images/icons/icn-cupworld.svg"); ?></span>
+						<span class="chiffre">9</span>
+					</div>
+					<div class="selection-item">
+						<span class="icon"><?php echo file_get_contents("assets/images/icons/icn-cupworld.svg"); ?></span>
 
-        			<span class="chiffre">92</span>
-        		</div>
-        		<div class="selection-item">
-        			<span class="icon"><?php echo file_get_contents("assets/images/icons/icn-cupworld.svg"); ?></span>
-        			<span class="chiffre">203</span>
-        		</div>
+						<span class="chiffre">92</span>
+					</div>
+					<div class="selection-item">
+						<span class="icon"><?php echo file_get_contents("assets/images/icons/icn-cupworld.svg"); ?></span>
+						<span class="chiffre">203</span>
+					</div>
+				</div>
         	</section>
         </div>
 
