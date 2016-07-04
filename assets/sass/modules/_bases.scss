@@ -13,3 +13,9 @@ html,body{
   }
 }
 
+.label-coupe{
+  @media #{$sm-xs} {
+    display: none;
+  }
+}
+

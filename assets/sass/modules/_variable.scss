@@ -34,7 +34,7 @@ $xs: '(max-width: #{$screen-xs-max})';
 $md-sm: '(min-width: #{$screen-sm-min})';
 
 // Tablet & mobile
-$sm-xs: '(max-width: #{$screen-sm-max})';
+$sm-xs: '(min-width: #{$screen-sm-min}) and (max-width: #{$screen-sm-max})';
 
 //COLORS
 $grey : #dadada;

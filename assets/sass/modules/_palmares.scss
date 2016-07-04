@@ -3,6 +3,9 @@
     border-bottom:1px solid rgba(151, 151, 151, 0.23);
     border-top:1px solid rgba(151, 151, 151, 0.23);
     margin-top: 17px;
+    @media #{$md}{
+      margin-top: 0;
+    }
   .container-palmares{
     height: 30px;
     position: relative;
@@ -13,15 +16,16 @@
     padding-bottom: 15px;
     color: black;
     justify-content: space-between;
+    align-items: center;
 
     @media #{$md}{
       margin-top: 0;
-      height: 150px;
+      height: 90px;
       padding-top: 0;
       padding-bottom: 0;
     }
 
-    @media #{$sm-xs} {
+    @media #{$sm} {
       width: 500px;
       margin-left: auto;
       margin-right: auto;
@@ -30,16 +34,15 @@
   .selection-item{
     display: flex;
     align-items: center;
-
-    .icon{
-      margin-right: 10px;
-    }
+    flex-direction: column;
 
     .chiffre{
       font-size: 24px;
       line-height: 24px;
       font-weight: 700;
       color: $black;
+      vertical-align: super;
+      margin-left: 10px;
     }
 
     .chiffre-title{

@@ -5,9 +5,11 @@
   align-items: center;
 
   @media #{$md}{
-    height: calc(100% - 150px);
+    position: relative;
+    height: calc(100% - 90px);
+    background:url('/projet_mobilefirst/assets/images/background-img.jpg')no-repeat;
+    background-size: cover;
   }
-
   .section-player-bg{
     position: relative;
     height: 150px;
@@ -18,10 +20,13 @@
 
     @media #{$md}{
       height: 100%;
+      background: none;
     }
-    @media #{$sm-xs}{
+
+    @media #{$sm}{
       height: 250px;
     }
+
   }
   .section-player-info{
     margin-top: -55px;
@@ -30,8 +35,13 @@
 
     @media #{$md}{
       color: #fff;
+      margin-top: 0;
+      position: absolute;
+      left: 50%;
+      bottom: 15%;
+      transform: translate(-50%,-15%);
     }
-    @media #{$sm-xs} {
+    @media #{$sm} {
       margin-top: -90px;
     }
     .player-picture {
@@ -47,7 +57,7 @@
         height: 110px;
         border-radius:50%;
 
-        @media #{$sm-xs}{
+        @media #{$sm}{
           width: 165px;
           height: 165px;
         }
@@ -57,7 +67,7 @@
       font-weight: 700;
       font-size: 18px;
 
-      @media #{$sm-xs} {
+      @media #{$sm} {
         text-align: center;
       }
     }

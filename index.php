@@ -29,17 +29,17 @@
         	<section class="section-palmares">
 				<div class="container-palmares">
 					<div class="selection-item">
-						<span class="icon"><?php echo file_get_contents("assets/images/icons/icn-cupworld.svg"); ?></span>
-						<span class="chiffre">9</span>
+						<span class="icon"><?php echo file_get_contents("assets/images/icons/icn-cupworld.svg"); ?><span class="chiffre">9</span></span>
+						<span class="label-coupe">Coupe du monde</span>
 					</div>
 					<div class="selection-item">
-						<span class="icon"><?php echo file_get_contents("assets/images/icons/icn-cupworld.svg"); ?></span>
+						<span class="icon"><?php echo file_get_contents("assets/images/icons/icn-cupworld.svg"); ?><span class="chiffre">92</span></span>
+						<span class="label-coupe">Coupe du monde</span>
 
-						<span class="chiffre">92</span>
 					</div>
 					<div class="selection-item">
-						<span class="icon"><?php echo file_get_contents("assets/images/icons/icn-cupworld.svg"); ?></span>
-						<span class="chiffre">203</span>
+						<span class="icon"><?php echo file_get_contents("assets/images/icons/icn-cupworld.svg"); ?><span class="chiffre">203</span></span>
+						<span class="label-coupe">Coupe du monde</span>
 					</div>
 				</div>
         	</section>
