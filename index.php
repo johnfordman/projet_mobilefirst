@@ -4,9 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Mibile first</title>
-	<link rel="stylesheet" type="text/css" href="dist/css/main.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/main.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Signika:400,300' rel='stylesheet' type='text/css'>
-
 </head>
 <body>
     <div class="wrap-container">
@@ -69,6 +68,6 @@
     		</div>
     	</section>
     </div>
-
+	<script src="dist/scripts/libs.min.js"></script>
 </body>
 </html>

@@ -24,6 +24,7 @@ gulp.task('css', function() {
 
 gulp.task('cssmin', function() {
     return sass('assets/sass/main.scss',{ style: 'expanded' })
+    .pipe(autoprefixer("> 1%", "last 2 versions"," Firefox ESR"," Opera 12.1"))
     .pipe(rename({suffix: '.min'}))
     .pipe(minifycss())
     .pipe(gulp.dest('dist/css'))
