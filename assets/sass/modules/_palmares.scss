@@ -19,10 +19,12 @@
     align-items: center;
 
     @media #{$md}{
-      margin-top: 0;
       height: 90px;
+      margin-top: 0;
       padding-top: 0;
       padding-bottom: 0;
+      padding-left: 80px;
+      padding-right: 80px;
     }
 
     @media #{$sm} {
@@ -30,6 +32,7 @@
       margin-left: auto;
       margin-right: auto;
     }
+
   }
   .selection-item{
     display: flex;
@@ -52,6 +55,16 @@
       text-transform: uppercase;
       font-family:Montserrat;
       font-weight: 500;
+    }
+    .label-coupe{
+      display: none;
+
+      @media #{$md} {
+        display: block;
+        text-transform: uppercase;
+        font-size: 9px;
+        font-weight: 700;
+      }
     }
 
   }

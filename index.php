@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Mibile first</title>
-	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
+<!--	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">-->
 	<link rel="stylesheet" type="text/css" href="dist/css/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Signika:400,300' rel='stylesheet' type='text/css'>
 
