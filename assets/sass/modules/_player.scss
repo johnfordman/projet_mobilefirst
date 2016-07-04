@@ -7,15 +7,17 @@
   @media #{$md}{
     position: relative;
     height: calc(100% - 90px);
-    background:url('/projet_mobilefirst/assets/images/background-img.jpg')no-repeat;
+    background:url('/projet_mobilefirst/assets/images/torres-bg.jpg')no-repeat;
     background-size: cover;
+    background-position: 60% 50%;
   }
   .section-player-bg{
     position: relative;
     height: 150px;
     width: 100%;
-    background:url('/projet_mobilefirst/assets/images/background-img.jpg')no-repeat;
+    background:url('/projet_mobilefirst/assets/images/torres-bg.jpg')no-repeat;
     background-size: cover;
+    background-position: 50% 83%;
     z-index: 1;
 
     @media #{$md}{

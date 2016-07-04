@@ -133,14 +133,16 @@ html, body {
     .section-player {
       position: relative;
       height: calc(100% - 90px);
-      background: url("/projet_mobilefirst/assets/images/background-img.jpg") no-repeat;
-      background-size: cover; } }
+      background: url("/projet_mobilefirst/assets/images/torres-bg.jpg") no-repeat;
+      background-size: cover;
+      background-position: 60% 50%; } }
   .section-player .section-player-bg {
     position: relative;
     height: 150px;
     width: 100%;
-    background: url("/projet_mobilefirst/assets/images/background-img.jpg") no-repeat;
+    background: url("/projet_mobilefirst/assets/images/torres-bg.jpg") no-repeat;
     background-size: cover;
+    background-position: 50% 83%;
     z-index: 1; }
     @media (min-width: 1024px) and (max-width: 1349px) {
       .section-player .section-player-bg {
@@ -285,7 +287,7 @@ html, body {
   @media (min-width: 1024px) and (max-width: 1349px) {
     .section-news {
       padding-left: 35px;
-      padding-top: 35px;
+      padding-top: 55px;
       padding-right: 0;
       box-sizing: border-box;
       overflow-y: scroll; } }
@@ -308,7 +310,8 @@ html, body {
     @media (min-width: 1024px) and (max-width: 1349px) {
       .section-news:after {
         left: 174px;
-        bottom: 0; } }
+        bottom: 0;
+        height: 795px; } }
   @media (min-width: 1024px) and (max-width: 1349px) {
     .section-news {
       width: 50%; } }
@@ -336,7 +339,7 @@ html, body {
         -webkit-justify-content: flex-start;
             -ms-flex-pack: start;
                 justify-content: flex-start;
-        margin-bottom: 55px; } }
+        margin-bottom: 75px; } }
     .section-news .single-news .news-circle {
       display: inline-block;
       width: 11.5px;
