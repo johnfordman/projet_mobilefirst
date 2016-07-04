@@ -17,7 +17,13 @@
         			<div class="overlay"></div>
         		</div>
         		<div class="section-player-info">
-        			<div class="player-picture img-circle"><img src="assets/images/torres-profile.jpg" width="110" height="110" alt="fernando torres"></div>
+        			<div class="player-picture img-circle">
+						<picture>
+							<source srcset="assets/images/torres-profile-xsplus.jpg" media="(min-width: 768px)" />
+							<img srcset="assets/images/torres-profile.jpg"
+								 alt="Sample pic" />
+						</picture>
+					</div>
         			<div class="player-name"><span>Fernando Torres</span></div>
         			<div class="container-team">
         			<?php echo file_get_contents("assets/images/icons/pin.svg"); ?>
